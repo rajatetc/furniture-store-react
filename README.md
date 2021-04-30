@@ -1,3 +1,13 @@
-An E-Commerce store made using React, Auth0 and Stripe.
+## Comfy Store
 
-Live at: https://furniture-store-react.netlify.app/
+Search and filter for products, add to cart, checkout, and make payment.
+
+
+## Tech Stack
+
+Create React App, React Router Dom, Axios, Styled Components, React Icons, Auth0, Stripe.
+
+
+## Deployment
+
+Netlify 
