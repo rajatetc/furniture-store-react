@@ -14,13 +14,9 @@ const AboutPage = () => {
             <h2>our story</h2>
             <div className='underline'></div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              laborum, perferendis tenetur quasi, ea iure maiores quia
-              laboriosam sint quisquam eligendi aperiam quibusdam enim soluta
-              minus minima temporibus quis dolorum! Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Dolorem dolore accusantium eius, sed
-              neque labore, optio aperiam amet beatae nihil adipisci cupiditate
-              explicabo?
+              A long tradition of making furniture now becomes an online
+              venture. Our mission is to create world-class and best quality
+              products.
             </p>
           </div>
         </article>

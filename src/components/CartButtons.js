@@ -1,5 +1,10 @@
 import React from 'react'
-import { FaShoppingCart, FaUserMinus, FaUserPlus } from 'react-icons/fa'
+import {
+  FaShoppingCart,
+  FaUserMinus,
+  FaUserPlus,
+  FaGithub,
+} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { useProductsContext } from '../context/products_context'
@@ -35,15 +40,39 @@ const CartButtons = () => {
           Login <FaUserPlus />
         </button>
       )}
+      <button type='button' className='auth-btn'>
+        <a
+          href='https://github.com/rajatetc/furniture-store-react'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <FaGithub />
+        </a>
+      </button>
     </Wrapper>
   )
 }
 
 const Wrapper = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
   align-items: center;
   width: 225px;
+
+  button a {
+    display: flex;
+    justify-content: flex-start;
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: var(--clr-grey-1);
+    letter-spacing: var(--spacing);
+    svg {
+      margin-left: 5px;
+    }
+  }
 
   .cart-btn {
     color: var(--clr-grey-1);

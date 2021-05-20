@@ -12,10 +12,9 @@ const Services = () => {
             built only for you{' '}
           </h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis
-            voluptas distinctio deleniti mollitia earum ullam harum quam vitae
-            perferendis est libero ipsum, voluptatibus doloremque. Natus placeat
-            repellendus necessitatibus minus magni.
+            Crafted by world class designers and craftsmen for your leisure and
+            luxury. Look through our products and reward yourself. Because you
+            deserve nothing but the best!
           </p>
         </article>
         <div className='services-center'>

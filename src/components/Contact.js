@@ -8,9 +8,8 @@ const Contact = () => {
         <h3>Join our newsletter and get 20% off</h3>
         <div className='content'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolorum
-            architecto quibusdam nam tempore natus magnam accusamus repellat
-            vero eius!
+            Hurry, limited period offer. Get your favorite piece before stock
+            runs out.
           </p>
           <form
             className='contact-form'

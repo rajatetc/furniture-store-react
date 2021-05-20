@@ -13,9 +13,8 @@ const Hero = () => {
           comfort zone
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-          numquam, deleniti sed commodi rem minus molestias placeat temporibus
-          esse recusandae.
+          Search and filter for products, add to cart, checkout, and make
+          payment.
         </p>
         <Link to='/products' className='btn hero-btn'>
           shop now
