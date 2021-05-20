@@ -1,22 +1,13 @@
-## Notes
+## Comfy Store
 
-#### Older React Version
+Search and filter for products, add to cart, checkout, and make payment.
 
-```
-"react": "^16.13.1",
-"react-dom": "^16.13.1",
-"react-scripts": "3.4.3",
-```
 
-#### Current React Version
+## Tech Stack
 
-```
-"react": "^17.0.1",
-"react-dom": "^17.0.1",
-"react-scripts": "4.0.0",
-```
+Create React App, React Router Dom, Axios, Styled Components, React Icons, Auth0, Stripe.
 
-#### Alternative fix
 
-.env file in the root
-FAST_REFRESH=FALSE
+## Deployment
+
+Netlify 
